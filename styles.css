@@ -9,6 +9,7 @@ body {
     max-width: 82%;
 }
 
+/* Header and Nav bar */
 header {
     margin: auto;
     display: flex;
@@ -40,6 +41,7 @@ a:hover {
     border-radius: 6px;
 }
 
+/* All containters */
 .container {
     border: 2px solid #77C4EF;
     margin: 10px auto;
@@ -47,6 +49,7 @@ a:hover {
     width: 100%;
 }
 
+/* Color section */
 .colorbox {
     display: inline-block;
     width: 45%;
@@ -82,4 +85,41 @@ a:hover {
     background-color: #292A41;
 }
 
+/* Font section */
+.main-font {
+    font-size: large;
+}
 
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.font-styles {
+    display: inline-block;
+    width: 42%;
+    text-align: left;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.roboto {
+    font-family: 'Roboto', serif;
+}
+
+.raleway {
+    font-family: 'Raleway', serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', serif;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
