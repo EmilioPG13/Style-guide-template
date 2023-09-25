@@ -280,3 +280,102 @@ button {
     background-image: linear-gradient(rgb(211, 90, 205), #552255);
     box-shadow: 0 13px 17px 0 rgba(0,0,0,0.25), 0 18px 51px 0 rgb(189, 65, 214);
 }
+
+/* Media queries */
+@media only screen and (max-width: 480px) {
+
+    /* Adjust the styles for smaller screens here */
+    body {
+        max-width: 100%;
+    }
+
+    /* Header and Nav bar */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .right ul {
+        justify-content: center;
+    }
+
+    /* All containers */
+    .container {
+        padding: 10px;
+    }
+
+    /* Color section */
+    .colorbox {
+        width: 90%;
+    }
+
+    /* Font section */
+    .font-styles {
+        width: 90%;
+    }
+
+    /* Text Styles section */
+    #text-styles h2 {
+        font-size: 1.2rem;
+    }
+
+    /* Button section */
+    .button-style {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        margin: 2%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /* Adjust the styles for smaller screens here */
+    body {
+        max-width: 100%;
+    }
+
+    /* Header and Nav bar */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .right ul {
+        justify-content: center;
+    }
+
+    /* All containers */
+    .container {
+        padding: 10px;
+    }
+
+    /* Color section */
+    .colorbox {
+        width: 90%;
+    }
+
+    /* Font section */
+    .font-styles {
+        width: 90%;
+    }
+
+    /* Text Styles section */
+    #text-styles h2 {
+        font-size: 1.2rem;
+    }
+
+    /* Button section */
+    .button-style {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        margin: 2%;
+    }
+}
