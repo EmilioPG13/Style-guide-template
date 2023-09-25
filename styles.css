@@ -26,16 +26,19 @@ header {
 
 }
 
-.right li a{
-    font-weight: bold;
-    text-decoration: none;
+.header-links a {
+    box-shadow: inset 0 0 0 0 #B25441;
     color: #B25441;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    text-decoration: none;
+    font-size: large;
 }
 
-a:hover {
-    color: maroon;
-    background-color: #DDAF56;
-    border-radius: 6px;
+.header-links a:hover {
+    box-shadow: inset 100px 0 0 0 #B25441;
+    color: white;
 }
 
 /* All containters */
@@ -152,3 +155,128 @@ padding: .1rem;
     font-weight: 400;
 }
 
+/* Button section */
+
+.button-style{
+    width: 100%;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    margin: 4%;
+    font-weight: bolder; 
+}
+
+#button1 {
+    border-radius: 5px;
+    background-color: rgb(34, 87, 122);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4 ease 0s;
+    border: none;
+    cursor: pointer;
+}
+
+#button1:hover {
+    background-color: #10496e;
+    letter-spacing: 1px;
+    transition: all 0.4 ease 0s;
+    cursor: pointer;
+}
+
+#button2{
+    border-radius: 50px;
+    background-color: #5BC8AC;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+#button2:hover{
+    color:rgb(190, 36, 25);
+    background-color: #E6D72A;
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    text-shadow: 1px 1px 2px pink;
+    width: 120px;
+    cursor: pointer;
+}
+#button3{
+    border-radius: 5%;
+    background-color: rgb(242, 166, 90);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+#button3:hover{
+    background-color: rgb(230, 196, 8);
+    letter-spacing: 2px;
+    transition: all 0.4s ease 0s;
+    text-shadow: red  1px 0 10px;
+    border-radius: 5%;
+    width: 110px;
+    cursor: pointer;
+}
+#button4{
+    border-radius: 5px;
+    color: #2c5522;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: 4px solid #2c5522;
+    cursor: pointer;
+    
+}
+#button4:hover{
+    border: 5px solid #57CC99;
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+} 
+#button5{
+    border-radius: 5px;
+    background-color: rgb(224, 19, 132);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+    
+}
+#button5:hover{
+    background-color: rgb(29, 101, 209);
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    width: 110px;
+    cursor: pointer;
+    box-shadow: 0 13px 17px 0 rgba(0,0,0,0.25), 0 18px 51px 0 rgba(0,0,0,0.20);
+}
+#button6{
+    border-radius: 5px;
+    background-color: rgb(60, 2, 128);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+#button6:hover{
+    background-color: rgb(230, 42, 89);
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(211, 90, 205), #552255);
+    box-shadow: 0 13px 17px 0 rgba(0,0,0,0.25), 0 18px 51px 0 rgb(189, 65, 214);
+}
