@@ -16,21 +16,18 @@ header {
     list-style: none;
 }
 
-h1 {
+.heading {
     color: #80B1B9;
 }
 
-nav ul {
+.right ul {
     display: flex;
     list-style: none;
 
 }
 
-nav li {
+.right li a{
     font-weight: bold;
-}
-
-a {
     text-decoration: none;
     color: #B25441;
 }
@@ -123,3 +120,35 @@ a:hover {
 .nunito {
     font-family: 'Nunito', sans-serif;
 }
+
+/* Text Styles section */
+#text-styles {
+    font-family:'Nunito',sans-serif;
+}
+
+#text-styles h2 {
+    font-size: 1.5rem;
+    font-family: Arial, Tahoma, Serif ;
+}
+
+#text-styles li{
+padding: .1rem;
+}
+
+.text-styles h1{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700 (bold);
+    font-size: 26px;
+
+}
+.text-styles h2{
+    font-family: 'Mulish', serif;
+    font-weight: 500(bold);
+    font-size: 18px;
+}
+.text-styles p{
+    font-family: 'Mulish', serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
